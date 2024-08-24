@@ -1,0 +1,65 @@
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+body {
+    background-image: url(bgweb.jpeg.jpg);
+    background-position: fixed;
+    float: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-container {
+    text-align: center;
+    height: 450px;
+    margin-top: 150px;
+}
+
+.main-container {
+    grid-template-columns: 1fr 1fr;
+    height: -70px;
+    margin-top: -230px;
+    margin-bottom: 0px;
+    backdrop-filter: blur(80);
+    text-align: center;
+}
+
+.login-container {
+    color: white;
+    text-align: center;
+    display: grid;
+    width: 500px;
+    margin: auto;
+    backdrop-filter: blur(80);
+    box-shadow: 0 5px 10px #000;
+}
+
+.btn-color {
+    width: 100px;
+    font-size:medium;
+    background-color: rgb(16, 140, 168);
+}
+
+.creat-color {
+    color: rgb(43, 193, 219);
+    font-size: 15px ;
+}
+
+.login-container input, .login-container button {
+    margin: 5px 60px;
+    padding: 5px;
+}
+
+.small-text {
+    color: cornflowerblue;
+    font-size: 15px;
+}
+
+.more {
+    color: whitesmoke;
+    font-size: 15px;
+    margin-bottom: -20px;
+    margin-left: 650px;
+}
